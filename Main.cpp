@@ -1,5 +1,3 @@
-//<insérer ici un texte long et inutile sur le fait que le programme m'appartient... Il y a un exeemple plus bas mais le fautes en moins et une license mais pas 4 serait la bienvenue. BREF>
-
 /* This program and his code his the propriety of Jules Blasco Déjoué. He is the Only one who can post it or share it without mentioned himself. Every copy of a part or of
 the whole program or code is forbidden except ant special authorization delivered by the owner of this code called Jules Blasco Déjoué. In case of any litiges,
 they will be solved according to the French Legslitature*/
@@ -98,17 +96,23 @@ int main()
         break;
         case 2:
             money_O+=3500;
-            if (side='C'&&rowWon=<5)
+            if (rowWon=<5)
             {
-                money_E=money_E+2200+500*rowWon;
+                money_E=money_E+1400+500*rowWon;
+            }
+            else (rowWon=>5)
+            {
+                money_E+=3400;
+            }
+            if (side='C')
+            {
+                money_E+=800;
             }
             else
             {
-                money_E+=1400;
             }
-/*             ++rowWon;
- *             rowLost=0;
- */
+             ++rowWon;
+             rowLost=0;
         break;
         case 3:
             if(side='C')
